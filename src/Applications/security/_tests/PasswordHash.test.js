@@ -1,4 +1,4 @@
-const PasswordHash = require('../PassowrdHash')
+const PasswordHash = require('../PasswordHash')
 
 describe('PasswordHash Interface', () => {
   it('should throw error when invoke abstract behavior', async () => {

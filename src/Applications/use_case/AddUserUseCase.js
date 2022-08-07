@@ -1,6 +1,7 @@
 const RegisterUser = require('../../Domains/users/entities/RegisterUser')
 
 class AddUserUseCase {
+  // use dependecy injection - parameter is function to call other class to process
   constructor({ userRepository, passwordHash }) {
     this._userRepository = userRepository
     this._passwordHash = passwordHash
